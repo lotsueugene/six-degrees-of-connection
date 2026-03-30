@@ -52,7 +52,7 @@ def bfs(graph, start, target):
                 visited.add(neighbor)
                 queue.append((neighbor, path + [neighbor]))
     
-    # No path exists
+    
     return []
 
 
@@ -95,7 +95,7 @@ def dfs(graph, start):
         if neighbor not in visited:
           stack.append(neighbor)
     
-    return visited  # Target not found
+    return visited  
 
 
 # ============================================================================
